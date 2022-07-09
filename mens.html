@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        #container{
+            display: grid;
+            width: 80%;
+            margin: auto;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+            align-items: center;
+
+        }
+        img{
+            width: 40%;
+        }
+        #price{
+            margin-top: -15px;
+            height: 30px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        p{
+            color: #808080;
+            font-size: 30px;
+        }
+        #container>div>h1{
+            margin-bottom: -20px;
+        }
+        #price>p:nth-child(3){
+            color: green;
+        }
+        #price>p:nth-child(2){
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+  <div  id="container">
+    <div >
+        <img src="https://rukminim1.flixcart.com/image/800/960/jdt4n0w0/jacket/r/p/b/m-gsjkt1793blkwht-gritstones-original-imaf2mph7hfzpx6g.jpeg?q=50" alt="">
+        <h1>Pause</h1>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div id="price">
+            <h1>Rs. 350</h1>
+            <p> Rs.1,499</p>
+            <p>-70%</p>
+        </div>
+    </div>
+
+
+
+    <div>
+        <img src="https://rukminim1.flixcart.com/image/800/960/jdt4n0w0/jacket/r/p/b/m-gsjkt1793blkwht-gritstones-original-imaf2mph7hfzpx6g.jpeg?q=50" alt="">
+        <h1>Pause</h1>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div id="price">
+            <h1>Rs. 350</h1>
+            <p> Rs.1,499</p>
+            <p>-70%</p>
+    </div>
+    
+    </div>
+  </div>
+</body>
+</html>
